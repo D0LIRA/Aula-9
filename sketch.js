@@ -20,6 +20,28 @@ function draw()
   if (keyIsDown(DOWN_ARROW)) {
     box.position.y=box.position.y+5
   }
+  if (keyIsDown(LEFT_ARROW)) 
+  {
+    background("blue");
+    
+  }
+ 
+    if (keyIsDown(UP_ARROW)) 
+  {
+    background("yellow");
+   
+  }
+
+  if (keyIsDown(DOWN_ARROW)) 
+  {
+    background("green");
+  }
+
+  if (keyIsDown(RIGHT_ARROW))
+  {
+    background("red");
+  }
+
   drawSprites();
 
 }
